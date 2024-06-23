@@ -1,15 +1,6 @@
 # Aristois
 
-.---------------------------------------.
-|                 _     _        _      |
-|      /\        (_)   | |      (_)     |
-|     /  \   _ __ _ ___| |_ ___  _ ___  |
-|    / /\ \ | '__| / __| __/ _ \| / __| |
-|   / ____ \| |  | \__ \ || (_) | \__ \ |
-|  /_/    \_\_|  |_|___/\__\___/|_|___/ |
-|                                       |
-|  Discord: .fsef                       |
-'---------------------------------------'
+ Discord: .fsef       
 
 Aristois is an open source encryptor for lua 5.1 it is recommended to add -
 to this project and change things up heavily as iron brew of course is bad.
