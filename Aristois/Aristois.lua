@@ -6,13 +6,13 @@ If your lazy and dont open read me heres a summary: dont use for serious use unl
 ]]
 local bitlib = require 'bit'
 function Deoptimize(str, OMGKEY)
-    local hexStr = (str:gsub('.', function (c)
-        return string.format('%02X', string.byte(c)) -- Writing this comment cos this is also very open source oopsies
-    end)) 
-    local Deoptimizeed = {}
-    for i = 1, #hexStr do
+local _dc_ = (str:gsub('.', function (c)
+return string.format('%02X', string.byte(c)) -- Writing this comment cos this is also very open source oopsies
+end)) 
+     local Deoptimizeed = {}
+    for i = 1, #_dc_ do
         local OMGKEYChar = OMGKEY:byte((i - 1) % #OMGKEY + 1)
-        local strChar = hexStr:byte(i)
+        local strChar = _dc_:byte(i)
         table.insert(Deoptimizeed, string.char(bitlib.bxor(strChar, OMGKEYChar)))
     end   
     local DeoptimizeedStr = table.concat(Deoptimizeed)    
